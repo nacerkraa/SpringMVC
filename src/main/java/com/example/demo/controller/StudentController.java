@@ -22,12 +22,7 @@ public class StudentController {
 	
 	@GetMapping("/students")
 	private String listStudents(Model model) {
-		//Student st = new Student(4, "Nacer", "kraa", "nacer@exemple.com");
-		//Student st2 = new Student(4, "Nacer", "kraa", "nacer@exemple.com");
 		List<Student> ls =  studentService.getAllStudents();
-		//ls.add(st);
-		//ls.add(st2);
-		//ls.add(st);
 		model.addAttribute("students", ls);
 		
 		return "students";
