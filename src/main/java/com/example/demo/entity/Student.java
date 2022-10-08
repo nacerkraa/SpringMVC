@@ -52,9 +52,8 @@ public class Student {
 	public void setEmail(String email) {
 		Email = email;
 	}
-	public Student(long id, String firstname, String lastname, String email) {
+	public Student(String firstname, String lastname, String email) {
 		super();
-		this.id = id;
 		this.firstname = firstname;
 		this.lastname = lastname;
 		Email = email;

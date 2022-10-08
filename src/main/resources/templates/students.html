@@ -23,10 +23,10 @@
 			</thead>
 			
 			<tbody>
-				<tr th:each = "student: ${students}">
-					<td th:text = "${student.firstname}"></td>
-					<td th:text = "${student.lastname}"></td>
-					<td th:text = "${student.Email}"></td>
+				<tr th:each = "st: ${students}">
+					<td th:text = "${st.firstname}"></td>
+					<td th:text = "${st.lastname}"></td>
+					<td th:text = "${st.Email}"></td>
 				</tr>
 			</tbody>
 		</table>

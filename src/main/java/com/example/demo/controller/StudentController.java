@@ -22,9 +22,8 @@ public class StudentController {
 	
 	@GetMapping("/students")
 	private String listStudents(Model model) {
-		List<Student> ls =  studentService.getAllStudents();
-		model.addAttribute("students", ls);
-		
+
+		model.addAttribute("students", studentService.getAllStudents());
 		return "students";
 	}
 	
