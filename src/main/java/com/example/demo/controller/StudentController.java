@@ -27,10 +27,11 @@ public class StudentController {
 		return "students";
 	}
 	
-	@GetMapping("/page")
-	private String index(Model model) {
+	@GetMapping("/students/new")
+	private String createStudentForm(Model model) {
 		
-		
-		return "home";
+		Student student = new Student();
+		model.addAttribute("student", student);
+		return "create_student";
 	}
 }

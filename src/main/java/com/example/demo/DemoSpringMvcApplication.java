@@ -21,14 +21,14 @@ public class DemoSpringMvcApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		Student student1 = new Student("Ahmed", "Karim", "ahmed@exemple.com");
+		/*Student student1 = new Student("Ahmed", "Karim", "ahmed@exemple.com");
 		studentRepository.save(student1);
 		
 		Student student2 = new Student("Samah", "Achraf", "achraf@exemple.com");
 		studentRepository.save(student2);
 		
 		Student student3 = new Student("Ahlam", "Akfrl", "ahlam@exemple.com");
-		studentRepository.save(student3);
+		studentRepository.save(student3);*/
 		
 	}
 
