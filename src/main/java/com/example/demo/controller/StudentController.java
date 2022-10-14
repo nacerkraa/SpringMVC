@@ -20,6 +20,12 @@ public class StudentController {
 		this.studentService = studentService;
 	}
 	
+	@GetMapping("/")
+	private String index(Model model) {
+
+		return "home";
+	}
+	
 	@GetMapping("/students")
 	private String listStudents(Model model) {
 
